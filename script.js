@@ -14,13 +14,15 @@
 // date and time
 
 
-// var days=["sun", "mon", "tue", "wed", "thu","fri", "sat"]
-// var today = new Date()
-// console.log(today.getDay())
+var days=["sun", "mon", "tue", "wed", "thu","fri", "sat"]
+var today = new Date()
+console.log(today.getDay())
 
 var days=["sun", "mon", "tue", "wed", "thu","fri", "sat"]
 var today = new Date()
 console.log(days[today.getDay()])
 
-
+var days=["sun", "mon", "tue", "wed", "thu","fri", "sat"]
+var today = new Date()
+console.log(today.getHours())
 
