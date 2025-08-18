@@ -1,11 +1,18 @@
-function checkevenodd(){
-    let num=prompt("Enter number");
-    num= Number(num);
-    if (num % 2 == 0) {
-        console.log("Even")
-    }
-    else{
-        console.log("Odd")
-    }
-}
-checkevenodd();
+// function checkevenodd(){
+//     let num=prompt("Enter number");
+//     num= Number(num);
+//     if (num % 2 == 0) {
+//         console.log("Even")
+//     }
+//     else{
+//         console.log("Odd")
+//     }
+// }
+// checkevenodd();
+
+
+
+
+var days=["sun", "mon", "tue", "wed", "thu","fri", "sat"]
+var rightnow = new Date()
+console.log(rightnow.getDay()+1)
