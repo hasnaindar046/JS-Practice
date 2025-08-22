@@ -29,6 +29,8 @@
 // var customdate = new Date("20 jan 2020")
 // console.log(customdate)
 
-var customdate = new Date("20 jan 2020")
-var currentdate = new Date
-console.log(currentdate-customdate)
+// var customdate = new Date("20 jan 2020")
+// var currentdate = new Date
+// console.log(currentdate-customdate)
+
+ 
