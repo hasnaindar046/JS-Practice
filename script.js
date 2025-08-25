@@ -34,7 +34,15 @@
 // console.log(currentdate-customdate)
 
 //  Functions
- var firstname = prompt("Enter First name")
- var lastname = prompt("Enter last name")
- console.log(firstname)
- console.log(lastname)
+//  var firstname = prompt("Enter First name")
+//  var lastname = prompt("Enter last name")
+//  console.log(firstname)
+//  console.log(lastname)
+
+
+function sum(firstname, lastname){
+    console.log(firstname,lastname)
+}
+var fname = "Hasnain"
+var lname = "Dar"
+sum(lname,fname);
