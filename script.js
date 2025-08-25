@@ -34,4 +34,7 @@
 // console.log(currentdate-customdate)
 
 //  Functions
- 
+ var firstname = prompt("Enter First name")
+ var lastname = prompt("Enter last name")
+ console.log(firstname)
+ console.log(lastname)
