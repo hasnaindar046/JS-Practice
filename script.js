@@ -40,9 +40,16 @@
 //  console.log(lastname)
 
 
-function sum(firstname, lastname){
-    console.log(firstname,lastname)
+// function sum(firstname, lastname){
+//     console.log(firstname,lastname)
+// }
+// var fname = "Hasnain"
+// var lname = "Dar"
+// sum(lname,fname);
+
+
+function test(){
+    var name = "Hasnain"
+    console.log(name)
 }
-var fname = "Hasnain"
-var lname = "Dar"
-sum(lname,fname);
+test()
