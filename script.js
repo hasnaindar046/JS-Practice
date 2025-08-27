@@ -69,7 +69,14 @@
 // console.log(func(2,3))
 
 // es6 function
-let func =(a,b)=>{
-    return a + b
-}
-console.log(func(1,5))
+// let func =(a,b)=>{
+//     return a + b
+// }
+// console.log(func(1,5))
+
+// high order function
+var arr = [1,2,3,4]
+var arrmap = arr.map((x) => {
+    var add =  x + 2
+    console.log(add)
+})
