@@ -53,11 +53,17 @@
 // }
 // test()
 
-var value = 3
-var num = 5
-function add(value,num)
-{
-    var result = value + num
-    console.log(result)
+// var value = 3
+// var num = 5
+// function add(value,num)
+// {
+//     var result = value + num
+//     console.log(result)
+// }
+// add(value,num)
+
+// anonymous function es5 function
+let func = function(num1,num2){
+    return num1+num2
 }
-add(value,num)
+console.log(func(2,3))
