@@ -75,8 +75,12 @@
 // console.log(func(1,5))
 
 // high order function
+// var arr = [1,2,3,4]
+// var arrmap = arr.map((x) => {
+//     var add =  x + 2
+//     console.log(add)
+// })
+
 var arr = [1,2,3,4]
-var arrmap = arr.map((x) => {
-    var add =  x + 2
-    console.log(add)
-})
+var arrfilter = arr.filter((x) => x < 2)
+console.log(arrfilter)
