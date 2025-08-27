@@ -63,7 +63,13 @@
 // add(value,num)
 
 // anonymous function es5 function
-let func = function(num1,num2){
-    return num1+num2
+// let func = function(num1,num2){
+//     return num1+num2
+// }
+// console.log(func(2,3))
+
+// es6 function
+let func =(a,b)=>{
+    return a + b
 }
-console.log(func(2,3))
+console.log(func(1,5))
