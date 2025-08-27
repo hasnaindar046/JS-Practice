@@ -74,13 +74,20 @@
 // }
 // console.log(func(1,5))
 
-// high order function
+// high order function-----call back function
 // var arr = [1,2,3,4]
 // var arrmap = arr.map((x) => {
 //     var add =  x + 2
 //     console.log(add)
 // })
 
+// var arr = [1,2,3,4]
+// var arrfilter = arr.filter((x) => x < 2)
+// console.log(arrfilter)
+
 var arr = [1,2,3,4]
-var arrfilter = arr.filter((x) => x < 2)
+var arrfilter = arr.reduce((acc, curr) => acc + curr)
 console.log(arrfilter)
+
+
+
