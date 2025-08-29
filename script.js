@@ -85,9 +85,20 @@
 // var arrfilter = arr.filter((x) => x < 2)
 // console.log(arrfilter)
 
-var arr = [1,2,3,4]
-var arrfilter = arr.reduce((acc, curr) => acc + curr)
-console.log(arrfilter)
+// var arr = [1,2,3,4]
+// var arrfilter = arr.reduce((acc, curr) => acc + curr)
+// console.log(arrfilter)
 
 
+
+// function func1(func2){
+//     console.log("func 1")
+//     func2()
+// }
+// func1()
+
+// function func2(){
+//     console.log("func 2")
+// }
+// func2(func1)
 
